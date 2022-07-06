@@ -15,7 +15,7 @@
         >
           <base-subheading
             weight="regular"
-            title="Wir lieben das Abenteuer. Du auch? Dann sei bereit!"
+            title="Wir starten unsere Wöchentlichen Treffen am 26. August 2022"
           />
 
           <base-heading
@@ -24,8 +24,14 @@
             weight="medium"
           />
 
+          <base-heading
+            size="text-h2"
+            title="Jeden Freitag von 17-19 Uhr"
+            weight="medium"
+          />
+
           <base-body>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nobis neque aspernatur in quas iure id aliquid, esse debitis, quibusdam mollitia! Quia ea expedita magnam totam, earum omnis et perspiciatis?
+            Wir lieben das Abenteuer. Du auch? Dann sei bereit!
           </base-body>
 
           <div
@@ -33,7 +39,7 @@
             class="d-flex flex-wrap"
           >
             <base-btn>
-              Discover More
+              Anmelden
             </base-btn>
 
             <!-- <span class="font-weight-bold ml-6 mr-4 my-4">or</span> -->

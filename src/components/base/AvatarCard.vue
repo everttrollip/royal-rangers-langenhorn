@@ -22,6 +22,7 @@
 
       <base-body
         v-if="text || $slots.default"
+        :link="link"
         :space="horizontal ? 0 : undefined"
         :text="text"
         class="mx-auto"
@@ -51,6 +52,7 @@
       dark: Boolean,
       horizontal: Boolean,
       icon: String,
+      link: String,
       outlined: {
         type: Boolean,
         default: true,

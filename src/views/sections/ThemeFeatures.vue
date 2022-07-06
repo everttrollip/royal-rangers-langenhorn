@@ -16,9 +16,7 @@
             v-bind="feature"
             align="left"
             horizontal
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!
-          </base-avatar-card>
+          />
         </v-col>
       </v-row>
     </v-container>
@@ -32,7 +30,9 @@
     data: () => ({
       features: [
         {
-          title: 'Located in Langenhorn',
+          title: 'Wir sind in Langenhorn',
+          text: 'Flughafenstr. 89, 22415 Hamburg',
+          link: 'https://goo.gl/maps/pDNdc3pHFAHEXfx59',
           icon: 'mdi-map',
         },
         {

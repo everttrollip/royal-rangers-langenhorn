@@ -17,6 +17,20 @@
         </v-col>
 
         <v-col
+          v-if="image"
+          cols="12"
+          class="mb-4 d-flex"
+        >
+          <base-img
+            :src="require(`@/assets/${image}`)"
+            color="grey"
+            contain
+            height="120"
+            width="180"
+          />
+        </v-col>
+
+        <v-col
           v-if="title || subtitle"
           :cols="callout ? 9 : 12"
         >
@@ -74,6 +88,7 @@
         default: 'primary',
       },
       icon: String,
+      image: String,
       subtitle: String,
       text: String,
       title: String,

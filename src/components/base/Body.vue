@@ -10,8 +10,20 @@
     <!-- Only use v-html for user data -->
     <div
       v-if="text"
-      v-text="text"
-    />
+    >
+      <a
+        v-if="link"
+        :href="link"
+        target="_blank"
+      >
+        {{ text }}
+      </a>
+      <span
+        v-else
+      >
+        {{ text }}
+      </span>
+    </div>
 
     <div
       v-else-if="html"
@@ -35,6 +47,7 @@
 
     props: {
       html: String,
+      link: String,
       maxWidth: {
         type: [Number, String],
         default: undefined,
