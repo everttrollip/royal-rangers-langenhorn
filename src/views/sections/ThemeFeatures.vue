@@ -8,16 +8,22 @@
 
     <v-container>
       <v-row justify="center">
-        <v-col class="align">
+        <v-col class="d-flex justify-center align-center">
           <iframe
-            width="840"
-            height="472"
+            width="560"
+            height="315"
             src="https://www.youtube.com/embed/Egjye1izoPs"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           />
+        </v-col>
+      </v-row>
+
+      <v-row>
+        <v-col class="mt-12">
+          <v-divider></v-divider>
         </v-col>
       </v-row>
 
@@ -28,7 +34,6 @@
         <v-col
           v-for="(feature, i) in features"
           :key="i"
-          class="d-flex justify-center align-center"
           cols="12"
           md="6"
         >
