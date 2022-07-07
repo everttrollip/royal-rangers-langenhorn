@@ -23,7 +23,7 @@
 
       <v-row>
         <v-col class="mt-12">
-          <v-divider></v-divider>
+          <v-divider />
         </v-col>
       </v-row>
 
