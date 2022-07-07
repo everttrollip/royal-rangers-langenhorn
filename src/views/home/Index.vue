@@ -19,7 +19,7 @@
         'theme-features',
         'features',
         'affiliates',
-        'social-media',
+        // 'social-media',
         'contact-us',
       ]),
     ],

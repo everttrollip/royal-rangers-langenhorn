@@ -8,12 +8,15 @@
     />
 
     <base-btn
-      :color="!theme.isDark ? 'accent' : 'white'"
+      :color="!theme.isDark ? 'primary' : 'white'"
       href="mailto:info@citylighthamburg.de?subject=Pfadfinder%20Langenhorn"
       outlined
       target="_blank"
     >
-      Eine Nachricht schicken
+      <v-icon left>
+        mdi-email
+      </v-icon>
+      Schreib uns!
     </base-btn>
   </div>
 </template>

@@ -37,7 +37,13 @@
           cols="12"
           md="6"
         >
-          Copyright &copy; {{ new Date().getFullYear() }} Vuetify, LLC
+          <a
+            class="white--text"
+            href="https://evert-trollip.netlify.app/"
+            target="_blank"
+          >
+            Copyright &copy; {{ new Date().getFullYear() }} EJourney
+          </a>
         </v-col>
       </v-row>
     </v-container>
@@ -50,10 +56,10 @@
 
     data: () => ({
       social: [
-        'Facebook',
-        'Twitter',
-        'Instagram',
-        'Linkedin',
+        // 'Facebook',
+        // 'Twitter',
+        // 'Instagram',
+        // 'Linkedin',
       ],
     }),
   }
