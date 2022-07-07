@@ -27,7 +27,7 @@ const router = new Router({
           path: 'contact-us',
           name: 'Contact',
           component: () => import('@/views/contact-us/Index'),
-          meta: { src: require('@/assets/contact.jpg') },
+          meta: { src: require('@/assets/rr-6.jpeg') },
         },
       ],
     },

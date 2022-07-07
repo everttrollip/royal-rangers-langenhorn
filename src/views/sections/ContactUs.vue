@@ -27,10 +27,9 @@
             <base-btn
               :block="$vuetify.breakpoint.smAndDown"
               color="white"
-              href="mailto:info@citylighthamburg.de?subject=Pfadfinder%20Langenhorn"
+              to="contact-us"
               large
               outlined
-              target="_blank"
             >
               Kontaktiere uns
             </base-btn>

@@ -39,7 +39,7 @@
             class="d-flex flex-wrap"
           >
             <base-btn>
-              Anmelden
+              Interessiert!
             </base-btn>
 
             <!-- <span class="font-weight-bold ml-6 mr-4 my-4">or</span> -->
