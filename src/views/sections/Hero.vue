@@ -38,20 +38,16 @@
             :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"
             class="d-flex flex-wrap"
           >
-            <base-btn>
-              Interessiert!
-            </base-btn>
-
-            <!-- <span class="font-weight-bold ml-6 mr-4 my-4">or</span> -->
-
-            <!-- <base-btn
-              :ripple="false"
-              class="pa-1"
-              height="auto"
-              text
+            <base-btn
+              class="white--text"
             >
-              Get Started Now
-            </base-btn> -->
+              <a
+                class="white--text"
+                href="https://citylight-hamburg.churchcenter.com/people/forms/410899?open-in-church-center-modal=true"
+              >
+                Interessiert!
+              </a>
+            </base-btn>
           </div>
         </v-responsive>
       </v-container>
@@ -76,3 +72,14 @@
     },
   }
 </script>
+
+<style lang="sass">
+  a:link
+    text-decoration: none
+  a:visited
+    text-decoration: none
+  a:hover
+    text-decoration: none
+  a:active
+    text-decoration: none
+</style>

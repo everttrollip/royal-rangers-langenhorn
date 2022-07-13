@@ -28,7 +28,7 @@
               large
               outlined
             >
-              <a href="https://citylight-hamburg.churchcenter.com/people/forms/410899?open-in-church-center-modal=true">Fill out our form!</a>
+              <a href="https://citylight-hamburg.churchcenter.com/people/forms/410899?open-in-church-center-modal=true">Hier anmelden</a>
             </base-btn>
           </v-col>
         </v-row>
