@@ -1,9 +1,13 @@
 <template>
   <base-section id="theme-features">
     <base-section-heading title="Wir lieben das Abenteuer">
-      Wir lieben es, gemeinsam unterwegs zu sein, neue Horizonte kennenzulernen
-      und Lagerfeueratmosphäre zu genießen. Unsere Philosophie: Wir lieben das
-      Abenteuer.
+      <span
+        class="text-h6"
+      >
+        Wir lieben es, gemeinsam unterwegs zu sein, neue Horizonte kennenzulernen
+        und Lagerfeueratmosphäre zu genießen. Unsere Philosophie: Wir lieben das
+        Abenteuer.
+      </span>
     </base-section-heading>
 
     <v-container>
@@ -55,12 +59,12 @@
     data: () => ({
       features: [
         {
-          title: 'Wir sind in Langenhorn',
+          title: 'Wo wir uns treffen?',
           text: 'Flughafenstr. 89, 22415 Hamburg',
           icon: 'mdi-map',
         },
         {
-          title: 'Wann treffen wir?',
+          title: 'Wann wir uns treffen?',
           text: 'Jeden Freitag! Von 17-19 Uhr',
           icon: 'mdi-clock-outline',
         },

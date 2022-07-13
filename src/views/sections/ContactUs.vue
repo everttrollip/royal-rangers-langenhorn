@@ -15,7 +15,7 @@
 
             <base-body space="0">
               <span class="white--text">
-                Schreibt uns eine E-Mail und wir melden uns zurück!
+                Schreibe uns eine E-Mail und wir melden uns zurück!
               </span>
             </base-body>
           </v-col>

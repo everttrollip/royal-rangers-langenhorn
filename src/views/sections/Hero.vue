@@ -15,7 +15,7 @@
         >
           <base-subheading
             weight="regular"
-            title="Wir starten unsere Wöchentlichen Treffen am 26. August 2022"
+            title="Wir starten unsere wöchentlichen Treffen am 26. August 2022"
           />
 
           <base-heading
@@ -45,7 +45,7 @@
                 class="white--text"
                 href="https://citylight-hamburg.churchcenter.com/people/forms/410899?open-in-church-center-modal=true"
               >
-                Interessiert!
+                Interessiert?
               </a>
             </base-btn>
           </div>

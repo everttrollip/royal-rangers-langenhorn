@@ -4,7 +4,7 @@
     class="secondary"
   >
     <base-section-heading title="Was bieten wir an?">
-      Wir haben drei teams: Entdecker 4-6 Jahre, Forscher 6-8 Jahre und Kundschafter 9-12 Jahre
+      Wir haben drei Teams: Entdecker 4-6 Jahre, Forscher 6-8 Jahre und Kundschafter 9-12 Jahre
     </base-section-heading>
     <v-responsive
       class="mx-auto"
@@ -44,7 +44,7 @@
         {
           image: 'rr-forscher-1.png',
           title: 'Forscher (6-8 Jahre)',
-          text: 'Die Forscher sind die Rangers der zweitjüngsten Altersstufe. Im Alter von 6 bis 8 Jahren erforschen sie mit Spaß und Abenteuer die Natur und können ihre manchmal temperamentvolle Natur bei uns ausleben. Mit actionreichen Spielen, fesselnden Andachten und den Forscherprüfungen bestreiten sie jede Woche aufs neue erfolgreich den Freitag Nachmittag in der Natur. Etwas, was vielen Kinder heutzutage leider fehlt, da sie immer früher und immer länger schon hinter Handys oder anderen technischen Geräten sitzen und ihrem Gehirn dabei Schaden zufügen.',
+          text: 'Die Forscher sind die Rangers der zweitjüngsten Altersstufe. Im Alter von 6 bis 8 Jahren erforschen sie mit Spaß und Abenteuer die Natur und können ihre manchmal temperamentvolle Natur bei uns ausleben. Mit actionreichen Spielen, fesselnden Andachten und den Forscherprüfungen bestreiten sie jede Woche aufs neue erfolgreich den Freitag Nachmittag in der Natur.',
         },
         {
           image: 'rr-kundschafter-1.png',

@@ -19,7 +19,7 @@
             <v-icon left>
               mdi-email
             </v-icon>
-            Schreib uns!
+            Schreibe uns!
           </base-btn>
         </v-col>
 
@@ -30,12 +30,6 @@
             contain
             max-width="100%"
           />
-          <!-- <v-img
-            :src="require('@/assets/rr-1.jpeg')"
-            class="white--text"
-            gradient="to bottom, rgba(11, 28, 61, .9), rgba(0,0,0,.4)"
-            max-width="100%"
-          /> -->
         </v-col>
       </v-row>
     </v-container>
