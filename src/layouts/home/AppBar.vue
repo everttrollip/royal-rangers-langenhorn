@@ -9,7 +9,7 @@
     >
       <base-img
         :src="require('@/assets/logo.png')"
-        class="mt-12 mr-3 hidden-xs-only"
+        class="mt-12 mr-3"
         contain
         max-width="128"
         width="100%"
