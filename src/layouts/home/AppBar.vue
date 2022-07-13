@@ -13,6 +13,7 @@
         contain
         max-width="128"
         width="100%"
+        @click="handleClickLogo"
       />
 
       <v-toolbar-title>Royal Rangers Langenhorn</v-toolbar-title>
@@ -58,6 +59,12 @@
         'Home',
       ],
     }),
+
+    methods: {
+      handleClickLogo () {
+        this.$router.push('/')
+      },
+    },
   }
 </script>
 

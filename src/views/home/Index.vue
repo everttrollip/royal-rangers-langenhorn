@@ -21,6 +21,7 @@
         'affiliates',
         // 'social-media',
         'contact-us',
+        'interest',
       ]),
     ],
 

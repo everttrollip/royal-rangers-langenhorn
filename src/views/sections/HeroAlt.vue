@@ -69,8 +69,7 @@
       gradient () {
         const color = `${this.$vuetify.theme.themes.light.secondary}CC`
         const overlay = RGBAtoCSS(HexToRGBA(color))
-
-        return `to top, ${overlay}, ${overlay}`
+        return `to bottom, ${overlay}, rgba(0,0,0,.4)`
       },
       src () {
         return this.$route.meta.src
