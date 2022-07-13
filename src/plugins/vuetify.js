@@ -1,5 +1,3 @@
-// Vuetify Documentation https://vuetifyjs.com
-
 import Vue from 'vue'
 import Vuetify from 'vuetify/lib/framework'
 
@@ -10,39 +8,68 @@ export default new Vuetify({
     dark: false,
     themes: {
       light: {
-        primary: '#0c4583',
-        secondary: '#fce503',
-        accent: '#d31117',
+        primary: '#1E398F',
+        secondary: '#fce604',
+        accent: '#547282',
+        error: '#E3000F',
       },
       dark: {
-        primary: '#0c4583',
-        secondary: '#fce503',
-        accent: '#d31117',
+        primary: '#1E398F',
+        secondary: '#fce604',
+        accent: '#547282',
+        error: '#E3000F',
       },
     },
   },
 })
 
-// /* CSV */
-// 0c4583,d31117,fce503,5f342e,c1eeff
+/**
+ * Das FARBSYSTEM
+ * Royal Rangers Deutschland
 
-// /* With # */
-// #0c4583, #d31117, #fce503, #5f342e, #c1eeff
+  RR_gelb
+  HKS / Pantone   02 / 604 C
+  CYMK            5 | 0 | 100 | 0
+  RGB             252 | 233 | 0
+  HEX             #fce604
 
-// /* Array */
-// ["0c4583","d31117","fce503","5f342e","c1eeff"]
+  RR_rot
+  HKS / Pantone   14 / 1795 C
+  CYMK            0 | 100 | 100 | 0
+  RGB             227 | 0 | 15
+  HEX             #E3000F
 
-// /* Object */
-// {"Yale Blue":"0c4583","Maximum Red":"d31117","Middle Yellow":"fce503","Caput Mortuum":"5f342e","Light Blue":"c1eeff"}
+  RR_blau
+  HKS / Pantone   42 / 7687 C
+  CYMK            100 | 85 | 0 |0
+  RGB             30 | 57 | 143
+  HEX             #1E398F
 
-// /* Extended Array */
-// [{"name":"Yale Blue","hex":"0c4583","rgb":[12,69,131],"cmyk":[91,47,0,49],"hsb":[211,91,51],"hsl":[211,83,28],"lab":[29,8,-40]},{"name":"Maximum Red","hex":"d31117","rgb":[211,17,23],"cmyk":[0,92,89,17],"hsb":[358,92,83],"hsl":[358,85,45],"lab":[45,68,51]},{"name":"Middle Yellow","hex":"fce503","rgb":[252,229,3],"cmyk":[0,9,99,1],"hsb":[54,99,99],"hsl":[54,98,50],"lab":[90,-10,89]},{"name":"Caput Mortuum","hex":"5f342e","rgb":[95,52,46],"cmyk":[0,45,52,63],"hsb":[7,52,37],"hsl":[7,35,28],"lab":[27,19,12]},{"name":"Light Blue","hex":"c1eeff","rgb":[193,238,255],"cmyk":[24,7,0,0],"hsb":[196,24,100],"hsl":[196,100,88],"lab":[92,-11,-13]}]
+  RRA_blau
+  CYMK            72 | 47 | 39 |10
+  RGB             84 | 114 | 130
+  HEX             #547282
 
-// /* XML */
-// <palette>
-//   <color name="Yale Blue" hex="0c4583" r="12" g="69" b="131" />
-//   <color name="Maximum Red" hex="d31117" r="211" g="17" b="23" />
-//   <color name="Middle Yellow" hex="fce503" r="252" g="229" b="3" />
-//   <color name="Caput Mortuum" hex="5f342e" r="95" g="52" b="46" />
-//   <color name="Light Blue" hex="c1eeff" r="193" g="238" b="255" />
-// </palette>
+  RR_braun
+  HKS / Pantone   84 / 7603 C
+  CYMK            10 | 80 | 70 | 60
+  RGB             116 | 43 | 32
+  HEX             #742B20
+
+  RR_schwarz
+  HKS             88
+  CYMK            0 | 0 | 0 | 100
+  RGB             26 | 26 | 24
+  HEX             #1A1A18
+
+  RR_beige
+  CYMK            11 | 7 | 44 | 34
+  RGB             174 | 169 | 125
+  HEX             #aea97d
+
+  RRA_grau
+  CYMK            5 | 0 | 5 | 5
+  RGB             237 | 241 | 237
+  HEX             #edf1ed
+
+ */

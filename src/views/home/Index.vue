@@ -19,9 +19,8 @@
         'theme-features',
         'features',
         'affiliates',
-        // 'social-media',
-        'contact-us',
         'interest',
+        'contact-us',
       ]),
     ],
 
