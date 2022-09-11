@@ -27,8 +27,12 @@
               :block="$vuetify.breakpoint.smAndDown"
               large
               outlined
+              @click="handleSignUp"
             >
-              <a href="https://citylight-hamburg.churchcenter.com/people/forms/410899?open-in-church-center-modal=true">Hier anmelden</a>
+              <v-icon left>
+                mdi-open-in-new
+              </v-icon>
+              Hier anmelden
             </base-btn>
           </v-col>
         </v-row>
@@ -40,6 +44,15 @@
 <script>
   export default {
     name: 'SectionInterest',
+    methods: {
+      handleSignUp () {
+        const jotform = 'https://form.jotform.com/222505635355353'
+        window.open(
+          jotform,
+          '_blank',
+        )
+      },
+    },
   }
 </script>
 

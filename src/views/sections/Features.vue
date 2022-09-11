@@ -1,7 +1,7 @@
 <template>
   <base-section
     id="features"
-    class="secondary"
+    class=""
   >
     <base-section-heading title="Was bieten wir an?">
       Wir haben drei Teams: Entdecker 4-6 Jahre, Forscher 6-8 Jahre und Kundschafter 9-12 Jahre
